@@ -1,0 +1,30 @@
+
+
+.sticky{
+    position:sticky;
+    top:0;
+}
+
+.navbar{
+background-color: $pnavy;
+height:10vh;
+
+&__ul{
+    display: flex;
+    height: inherit;
+    justify-content:flex-end;
+    align-items: flex-end;
+    list-style: none;
+    color: $yellow;
+
+    &__items{
+        margin:15px 20px 15px 20px;
+        font-size: 30px;
+        font-family: $font-family;
+    }
+
+}
+
+}
+
+

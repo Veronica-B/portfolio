@@ -1,0 +1,66 @@
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.navbar {
+  background-color: #464D77;
+  height: 10vh;
+}
+
+.navbar__ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: inherit;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  list-style: none;
+  color: #F9DB6D;
+}
+
+.navbar__ul__items {
+  margin: 15px 20px 15px 20px;
+  font-size: 30px;
+  font-family: Hashed Browns, Arial, Helvetica, sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.background {
+  background-color: #464D77;
+  height: 40vh;
+  width: 100%;
+  font-family: Hashed Browns, Arial, Helvetica, sans-serif;
+}
+
+.background__header {
+  color: #F9DB6D;
+  line-height: 45px;
+  text-align: center;
+  padding: 30px;
+  letter-spacing: 20px;
+  width: 300px;
+  border-top: 10px dashed #DBD8F0;
+  border-bottom: 10px dashed #DBD8F0;
+  border-right: 10px solid #DBD8F0;
+  border-left: 10px solid #DBD8F0;
+}
+
+.triangle {
+  height: 00px;
+  width: 00px;
+  border-top: 50px solid transparent;
+  border-right: 400px solid transparent;
+  border-bottom: 100px solid #DBD8F0;
+  border-left: 100px solid transparent;
+}
+/*# sourceMappingURL=styles.css.map */

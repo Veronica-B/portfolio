@@ -1,12 +1,16 @@
 import React from 'react';
 import Vero from "./img/Vero.jpg";
-import './App.css';
+import NavBar from "./components/navBar.js"
+import "./css/styles.css"
 
 function App() {
   return (
     <div>
-      {/* <NavBar /> */}
-      <h1>Hello I'm Veronica</h1>
+    <NavBar />
+    <div className="background">
+      <h1 className="background__header">Hello I'm Veronica</h1>
+      <div className=" triangle "></div>
+      </div>
       <img src={Vero}alt="Veronica Barcia" />
       <h2>About Me</h2>
       <p> Lorem ipsum odor amet, consectetuer adipiscing elit. Ac purus in massa egestas mollis varius;

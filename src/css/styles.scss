@@ -1,0 +1,49 @@
+$skyblue:#56CBF9;
+$pnavy:#464D77;
+$yellow:#F9DB6D;
+$light-pink:#EAC5D8;
+$lavender:#DBD8F0;
+$font-family: Hashed Browns, Arial, Helvetica, sans-serif;
+//Hashed Browns for Headers? It looks cute :P
+@import "scss_partials/nav.scss";
+@import "scss_partials/footer.scss";
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.background{
+    background-color: $pnavy;
+    height: 40vh;
+    width:100%;
+    font-family: $font-family;
+
+
+    &__header{
+        color: $yellow;
+        line-height: 45px;
+        text-align: center;
+        padding:30px;
+        letter-spacing: 20px;
+        width:300px;
+        border-top: 10px dashed $lavender;
+        border-bottom: 10px dashed $lavender;
+        border-right: 10px solid $lavender;
+        border-left: 10px solid $lavender;
+    }
+
+}
+
+.triangle{
+    height:00px;
+    width:00px;
+    border-top: 50px solid transparent;
+  border-right: 400px solid transparent;
+  border-bottom: 100px solid $lavender;
+  border-left: 100px solid transparent;
+}
+
+
