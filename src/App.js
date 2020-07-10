@@ -8,8 +8,15 @@ function App() {
     <div>
     <NavBar />
     <div className="background">
-      <h1 className="background__header">Hello I'm Veronica</h1>
-      <div className=" triangle "></div>
+      <div className="triangle--long-base left-side"></div>
+      <div className="triangle--long-base upside-down--left"></div>
+      <div></div> 
+      <div className="triangle--iso tilted-right"></div>
+      <div className="triangle--long-base tilted"></div> 
+      
+      <h1 className="background__header">Hello, I'm Veronica</h1>
+
+      <div className="triangle--long-base tilted"></div> 
       </div>
       <img src={Vero}alt="Veronica Barcia" />
       <h2>About Me</h2>
