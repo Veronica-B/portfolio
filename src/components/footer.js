@@ -6,9 +6,13 @@ import Insta from "../img/insta.png"
 const Footer = () => {
 return(
 <footer className="footer">
-   <img src={Github} alt="Github icon"/>
-   <img src={Linked} alt="Linkedin icon"/>
-   <img src={Insta} alt="Instagram icon"/>
+   <div>
+   <a href="https://github.com/Veronica-B"><img src={Github} alt="Github icon"/></a>
+   <a href="https://www.linkedin.com/in/veronica-barcia3/"><img src={Linked} alt="Linkedin icon"/></a>
+   <a href="https://www.instagram.com/vero__barcia/"><img src={Insta} alt="Instagram icon"/></a>
+   </div>
+   Site By Veronica Barcia
+   &copy; VB 2020
 </footer>
 
 )

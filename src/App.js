@@ -62,7 +62,7 @@ function App() {
                 <img className="contact--icon" src={Github} alt="Github Icon" />
         Github</a>
             </li>
-            <li><a href="nkedin.com/in/veronica-barcia3/" >
+            <li><a href="https://www.linkedin.com/in/veronica-barcia3/" >
             <img className="contact--icon" src={Linked} alt="Linkedin Icon" />
               LinkedIn</a></li>
           </ul>
