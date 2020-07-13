@@ -8,26 +8,26 @@ function App() {
     <div>
     <NavBar />
     <div className="background">
-      <div className="triangle--long-base left-side"></div>
-      <div className="triangle--long-base upside-down--left"></div>
-      <div></div> 
-      <div className="triangle--iso tilted-right"></div>
-      <div className="triangle--long-base tilted"></div> 
-      
+  
+    <img className="profile-pic" src={Vero}alt="Veronica Barcia" />
       <h1 className="background__header">Hello, I'm Veronica</h1>
-
-      <div className="triangle--long-base tilted"></div> 
-      </div>
-      <img src={Vero}alt="Veronica Barcia" />
-      <h2>About Me</h2>
-      <p> Lorem ipsum odor amet, consectetuer adipiscing elit. Ac purus in massa egestas mollis varius;
-    dignissim elementum. Mollis tincidunt mattis hendrerit dolor eros enim, nisi ligula ornare.
-    Hendrerit parturient habitant pharetra rutrum gravida porttitor eros feugiat. Mollis elit
-    sodales taciti duis praesent id. Consequat urna vitae morbi nunc congue.Mollis tincidunt mattis hendrerit dolor eros enim, nisi ligula ornare.
-    Hendrerit parturient habitant pharetra rutrum gravida porttitor eros feugiat. Mollis elit
-    sodales taciti duis praesent id. Consequat urna vitae morbi nunc congue.
+      
+      <p className="about-me"> 
+        I'm Veronica Barcia, 
       </p>
-      <h2>My Work</h2>
+      </div>
+  
+      <section className="background--pink">
+      <h2>Resume</h2>
+      </section>
+
+      <section className="background--lav">
+      <h2>Projects</h2>
+      </section>
+
+      <section className="background--pink">
+      <h2>Contact Me!</h2>
+      </section>
     </div>
   );
 }
