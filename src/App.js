@@ -11,9 +11,10 @@ function App() {
   
     <img className="profile-pic" src={Vero}alt="Veronica Barcia" />
       <h1 className="background__header">Hello, I'm Veronica</h1>
-      
+
       <p className="about-me"> 
-        I'm Veronica Barcia, 
+        I'm Veronica Barcia, an avid programmer and foodie. I'm currently partcipating in the Road to Hire program, learning a mutiltude of languages,
+        and professional development. I aim to be a fullstack developer one day, and I'm commited to learning more and more in this everchanging landscape, that is known as coding.
       </p>
       </div>
   

@@ -1,12 +1,12 @@
 .sticky {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
+  position: fixed;
+  top: 0px;
 }
 
 .navbar {
   background-color: #464D77;
   height: 10vh;
+  width: 100vw;
   border-bottom: 1px solid #DBD8F0;
 }
 
@@ -44,9 +44,8 @@
   display: grid;
   -ms-grid-columns: (20%)[5];
       grid-template-columns: repeat(5, 20%);
-  -ms-grid-rows: 5vw 20vw 7vw 25vw;
-      grid-template-rows: 5vw 20vw 7vw 25vw;
-  overflow: hidden;
+  -ms-grid-rows: 10vw 20vw 7vw 25vw;
+      grid-template-rows: 10vw 20vw 7vw 25vw;
 }
 
 .background__header {
@@ -80,6 +79,7 @@
 
 .about-me {
   color: #464D77;
+  text-align: center;
   -ms-grid-row: 4;
   grid-row: 4;
   -ms-grid-column: 2;
@@ -96,5 +96,13 @@
 
 .background--lav {
   background-color: #DBD8F0;
+}
+
+h2 {
+  color: #464D77;
+  font-family: Hashed Browns, Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 15px;
 }
 /*# sourceMappingURL=styles.css.map */

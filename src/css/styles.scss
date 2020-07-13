@@ -21,8 +21,7 @@ $font-family: Hashed Browns, Arial, Helvetica, sans-serif;
     font-family: $font-family;
     display: grid;
     grid-template-columns: repeat(5, 20%);
-    grid-template-rows: 5vw 20vw 7vw 25vw;
-    overflow: hidden;
+    grid-template-rows: 10vw 20vw 7vw 25vw;
 
 
     &__header{
@@ -48,11 +47,11 @@ $font-family: Hashed Browns, Arial, Helvetica, sans-serif;
 .headers{
     color: $pnavy;
     grid-row:4;
-
 }
 
 .about-me{
     color: $pnavy;
+    text-align: center;
     grid-row:4;
     grid-column: 2/5;
     font-size: 30px;
@@ -67,4 +66,12 @@ $font-family: Hashed Browns, Arial, Helvetica, sans-serif;
 
 .background--lav{
     background-color: $lavender;
+}
+
+h2 {
+    color: $pnavy;
+    font-family: $font-family;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 15px;
 }
