@@ -17,12 +17,16 @@ border-bottom: 1px solid $lavender;
     justify-content:flex-end;
     align-items: flex-end;
     list-style: none;
-    color: $yellow;
 
     &__items{
         margin:15px 20px 15px 20px;
         font-size: 30px;
         font-family: $font-family;
+
+        a{
+            color: $yellow;
+            text-decoration: none;
+        }
     }
 
 }

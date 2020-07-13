@@ -1,0 +1,66 @@
+.container--contact{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    align-items: center;
+    color: $pnavy;
+    font-size: 35px;
+}
+
+.container--form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    input{
+        height: 30px;
+        width: 300px;
+        border-radius: 10%;
+    }
+
+    textarea{
+        height:300px;
+        width: 500px;
+        resize: none;
+        border-radius: 10%;
+    }
+
+    button{
+        background-color: $pnavy;
+        color:$yellow;
+        height:70px;
+        border-radius:10px;
+        width:150px;
+        font-size:35px;
+        margin-top: 10px;
+        margin-bottom:25px ;
+    }
+}
+
+.contact-info{
+    color: $pnavy;
+    text-align: center;
+
+    li{
+        margin: 25px;
+        list-style: none;
+    }
+
+    a{
+        color: $skyblue;
+        text-decoration: none;
+        padding-bottom: 4px;
+    }
+    a:hover{
+        border-bottom:dashed 5px $skyblue;
+    }
+
+    .bigger{
+        font-size: 45px;
+    }
+
+    .contact--icon{
+        height: 40px;
+        margin-right: 10px;
+        margin-bottom: -7px;
+    }
+
+}
