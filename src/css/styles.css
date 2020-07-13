@@ -44,8 +44,8 @@
   display: grid;
   -ms-grid-columns: (20%)[5];
       grid-template-columns: repeat(5, 20%);
-  -ms-grid-rows: 10vw 20vw 7vw 25vw;
-      grid-template-rows: 10vw 20vw 7vw 25vw;
+  -ms-grid-rows: 10vw 20vw 7vw 20vw;
+      grid-template-rows: 10vw 20vw 7vw 20vw;
 }
 
 .background__header {
@@ -90,7 +90,6 @@
 }
 
 .background--pink {
-  height: 300px;
   background-color: #EAC5D8;
 }
 
@@ -103,6 +102,61 @@ h2 {
   font-family: Hashed Browns, Arial, Helvetica, sans-serif;
   font-size: 50px;
   text-align: center;
-  padding-top: 15px;
+  padding-top: 25px;
+  margin-bottom: 30px;
+}
+
+.container--resume {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% (25%)[2];
+      grid-template-columns: 50% repeat(2, 25%);
+  -ms-grid-rows: auto 10vw;
+      grid-template-rows: auto 10vw;
+}
+
+.pic--resume {
+  height: 300px;
+  width: 350px;
+  border: 5px solid #464D77;
+}
+
+.a--resume {
+  margin: auto;
+}
+
+.a--resume :hover {
+  border: dashed 5px #56CBF9;
+}
+
+.ul--resume {
+  color: #464D77;
+  font-size: 40px;
+  font-family: Hashed Browns, Arial, Helvetica, sans-serif;
+}
+
+.ul--resume li {
+  font-size: 30px;
+  line-height: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.p--resume {
+  text-align: center;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
+  margin-top: 50px;
+  color: #464D77;
+  font-size: 35px;
+}
+
+.p--resume a {
+  text-decoration: none;
+  color: #56CBF9;
+}
+
+.p--resume a:hover {
+  border-bottom: dashed 5px #56CBF9;
 }
 /*# sourceMappingURL=styles.css.map */
