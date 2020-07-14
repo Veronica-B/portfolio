@@ -35,6 +35,10 @@
   text-decoration: none;
 }
 
+.navbar__ul__items a:hover {
+  border-bottom: dashed 5px #56CBF9;
+}
+
 .footer {
   background-color: #464D77;
   color: #F9DB6D;
@@ -109,6 +113,7 @@
   font-size: 35px;
   margin-top: 10px;
   margin-bottom: 25px;
+  cursor: pointer;
 }
 
 .contact-info {
