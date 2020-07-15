@@ -1,0 +1,36 @@
+.container--project{
+    display:grid;
+    grid-template-columns: repeat(3, 33%);
+}
+
+.flexbox--project{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+
+.img--project{
+    height: 200px;
+    width:400px;
+
+}
+
+.border{
+    :hover{
+        border: dashed 5px $skyblue;
+    }
+}
+
+.headers--project{
+    font-size: 30px;
+    font-family: $font-family;
+    color: $pnavy;
+}
+
+.descrip--project{
+    text-align: center;
+    font-size: 20px;
+    color: $pnavy;
+}

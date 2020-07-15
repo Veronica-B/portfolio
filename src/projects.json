@@ -1,0 +1,20 @@
+[
+    {
+        "name":"Gateway",
+        "image":"https://i.pinimg.com/564x/21/5c/0c/215c0ce01d94d4c2e566f908651a54ef.jpg",
+        "description":"My first project, a travel site for San Jose, Costa Rica. Made with HTML and CSS.",
+        "link":"https://gateway-project-original.netlify.app/"
+    },
+    {
+        "name":"Ecommerce",
+        "image":"https://i.pinimg.com/564x/06/4c/53/064c5306eb4664ad3ae3e3aee13f13f8.jpg",
+        "description":"An Ecommerce site called Shelves that sells books. Made with React and SASS.",
+        "link":"https://ecommerce-vb.netlify.app/"
+    },
+    {
+        "name":"Wiki-Redesign",
+        "image":"https://i.pinimg.com/564x/a4/72/48/a4724885fe26920638a9479be03e3847.jpg",
+        "description":"My team and I recreated Wikipedia with our own vision. Made with React, Nodejs, and Mysql.",
+        "link":"https://github.com/Veronica-B/wikipedia"
+    }
+]

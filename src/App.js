@@ -6,6 +6,7 @@ import Linked from "./img/linkedin.png"
 import NavBar from "./components/navBar.js"
 import Footer from "./components/footer.js"
 import "./css/styles.css"
+import ProjectCard from './components/projectCards';
 
 function App() {
   return (
@@ -46,6 +47,8 @@ function App() {
 
       <section className="background--lav">
         <h2 id="projects">Projects</h2>
+       
+        <ProjectCard />
       </section>
 
       <section className="background--pink">
