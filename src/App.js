@@ -24,7 +24,7 @@ function App() {
       </div>
 
       <section className="background--pink">
-        <h2  >Resume</h2>
+        <h2>Resume</h2>
         <div className="container--resume">
           <a className="a--resume" href="https://docs.google.com/document/d/1vZwJYfSS7kVToykG_XUi8ld_kagfFvN1T0HioIQB5qE/edit"><img className="pic--resume" src={Resume} alt="resume" /></a>
           <ul className="ul--resume">Hard Skills
@@ -49,8 +49,8 @@ function App() {
         <h2 id="projects">Projects</h2>
        
         <ProjectCard />
-      </section>
-
+      </section >
+    
       <section className="background--pink">
         <h2 id="contact">Contact Me!</h2>
 

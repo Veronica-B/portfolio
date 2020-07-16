@@ -19,7 +19,7 @@
     },
     {
         "name":"Tic-Tac-Toe",
-        "image":"https://i.pinimg.com/564x/a4/72/48/a4724885fe26920638a9479be03e3847.jpg",
+        "image":"https://i.pinimg.com/564x/31/02/22/3102225d436ba7a8d2944196244b4762.jpg",
         "description":"My team and I recreated Wikipedia with our own vision. Made with React, Nodejs, and Mysql.",
         "link":"https://github.com/Veronica-B/wikipedia"
     },
@@ -61,6 +61,12 @@
     },
     {
         "name":"Animated Navigation",
+        "image":"https://i.pinimg.com/564x/a4/72/48/a4724885fe26920638a9479be03e3847.jpg",
+        "description":"My team and I recreated Wikipedia with our own vision. Made with React, Nodejs, and Mysql.",
+        "link":"https://github.com/Veronica-B/wikipedia"
+    },
+    {
+        "name":"Tutor-Site",
         "image":"https://i.pinimg.com/564x/a4/72/48/a4724885fe26920638a9479be03e3847.jpg",
         "description":"My team and I recreated Wikipedia with our own vision. Made with React, Nodejs, and Mysql.",
         "link":"https://github.com/Veronica-B/wikipedia"
