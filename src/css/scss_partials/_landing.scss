@@ -1,0 +1,63 @@
+
+.background{
+    background-color: $lavender;
+    width:100%;
+    font-family: $font-family;
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    grid-template-rows: 10vw 20vw 7vw 20vw;
+
+
+    &__header{
+        color: $pnavy;
+        text-align: center;
+        font-size: 60px;
+        letter-spacing: 20px;
+        grid-row: 3;
+        grid-column:2/5 ;
+        animation-name: slide-header;
+        animation-duration: 2.5s;
+        position: relative;
+    }
+
+}
+
+@keyframes slide-header {
+    0% {left:-1000px}
+    60% {left:100px;}
+    100% {left:0px;}
+}
+
+@keyframes slide {
+    0% {left:-1000px;}
+    100% {left:0px;}
+}
+
+.profile-pic{
+    height:250px;
+    width: 250px;
+    border-radius:90px;
+    border: solid 2px $pnavy;
+    grid-row: 2;
+    grid-column: 3;
+    position: relative;
+    animation-name: slide;
+    animation-duration: 2.5s;
+}
+
+.headers{
+    color: $pnavy;
+    grid-row:4;
+}
+
+.about-me{
+    color: $pnavy;
+    text-align: center;
+    grid-row:4;
+    grid-column: 2/5;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    animation-name: slide;
+    animation-duration: 2.5s;
+    position: relative;
+}

@@ -10,6 +10,7 @@ $font-family: Hashed Browns, Arial, Helvetica, sans-serif;
 @import "scss_partials/contact.scss";
 @import "scss_partials/projectcards.scss";
 @import "scss_partials/landing.scss";
+@import "scss_partials/resume.scss";
 
 
 
@@ -18,49 +19,6 @@ $font-family: Hashed Browns, Arial, Helvetica, sans-serif;
     margin: 0;
 }
 
-
-.background{
-    background-color: $lavender;
-    width:100%;
-    font-family: $font-family;
-    display: grid;
-    grid-template-columns: repeat(5, 20%);
-    grid-template-rows: 10vw 20vw 7vw 20vw;
-
-
-    &__header{
-        color: $pnavy;
-        text-align: center;
-        font-size: 60px;
-        letter-spacing: 20px;
-        grid-row: 3;
-        grid-column:2/5 ;
-    }
-
-}
-
-.profile-pic{
-    height:250px;
-    width: 250px;
-    border-radius:90px;
-    border: solid 2px $pnavy;
-    grid-row: 2;
-    grid-column: 3;
-}
-
-.headers{
-    color: $pnavy;
-    grid-row:4;
-}
-
-.about-me{
-    color: $pnavy;
-    text-align: center;
-    grid-row:4;
-    grid-column: 2/5;
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-}
 
 .background--pink{
     background-color: $light-pink;
@@ -78,56 +36,4 @@ h2 {
     text-align: center;
     padding-top: 25px;
     margin-bottom: 30px ;
-}
-
-.container--resume{
-    display: grid;
-    grid-template-columns: 50% repeat(2, 25%);
-    grid-template-rows: auto 10vw;
-}
-
-.pic--resume{
-    height: 300px;
-    width: 350px;
-    border: 5px solid $pnavy;
-}
-
-.a--resume{
-    margin: auto;
-
-    :hover{
-        border: dashed 5px $skyblue;
-    }
-}
-
-.ul--resume{
-    color: $pnavy;
-    font-size: 40px;
-    font-family: $font-family;
-
-    li{
-        font-size: 30px;
-        line-height: 60px;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-}
-
-.p--resume{
-text-align: center;
-grid-column: 1/4;
-margin-top: 50px;
-color: $pnavy;
-font-size: 35px;
-
-    a{
-        text-decoration: none;
-        color: $skyblue;
-
-       
-    }
-
-    a:hover{
-       
-            border-bottom:dashed 5px $skyblue;
-    }
 }

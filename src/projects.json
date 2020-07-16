@@ -16,5 +16,53 @@
         "image":"https://i.pinimg.com/564x/a4/72/48/a4724885fe26920638a9479be03e3847.jpg",
         "description":"My team and I recreated Wikipedia with our own vision. Made with React, Nodejs, and Mysql.",
         "link":"https://github.com/Veronica-B/wikipedia"
+    },
+    {
+        "name":"Tic-Tac-Toe",
+        "image":"https://i.pinimg.com/564x/a4/72/48/a4724885fe26920638a9479be03e3847.jpg",
+        "description":"My team and I recreated Wikipedia with our own vision. Made with React, Nodejs, and Mysql.",
+        "link":"https://github.com/Veronica-B/wikipedia"
+    },
+    {
+        "name":"To-do-list",
+        "image":"https://i.pinimg.com/564x/a4/72/48/a4724885fe26920638a9479be03e3847.jpg",
+        "description":"My team and I recreated Wikipedia with our own vision. Made with React, Nodejs, and Mysql.",
+        "link":"https://github.com/Veronica-B/wikipedia"
+    },
+    {
+        "name":"Github Cards",
+        "image":"https://i.pinimg.com/564x/a4/72/48/a4724885fe26920638a9479be03e3847.jpg",
+        "description":"My team and I recreated Wikipedia with our own vision. Made with React, Nodejs, and Mysql.",
+        "link":"https://github.com/Veronica-B/wikipedia"
+    },
+    {
+        "name":"Guessing Game",
+        "image":"https://i.pinimg.com/564x/a4/72/48/a4724885fe26920638a9479be03e3847.jpg",
+        "description":"My team and I recreated Wikipedia with our own vision. Made with React, Nodejs, and Mysql.",
+        "link":"https://github.com/Veronica-B/wikipedia"
+    },
+    {
+        "name":"Friendslist",
+        "image":"https://i.pinimg.com/564x/a4/72/48/a4724885fe26920638a9479be03e3847.jpg",
+        "description":"My team and I recreated Wikipedia with our own vision. Made with React, Nodejs, and Mysql.",
+        "link":"https://github.com/Veronica-B/wikipedia"
+    },
+    {
+        "name":"Hotel-App",
+        "image":"https://i.pinimg.com/564x/a4/72/48/a4724885fe26920638a9479be03e3847.jpg",
+        "description":"My team and I recreated Wikipedia with our own vision. Made with React, Nodejs, and Mysql.",
+        "link":"https://github.com/Veronica-B/wikipedia"
+    },
+    {
+        "name":"Chatroom",
+        "image":"https://i.pinimg.com/564x/a4/72/48/a4724885fe26920638a9479be03e3847.jpg",
+        "description":"My team and I recreated Wikipedia with our own vision. Made with React, Nodejs, and Mysql.",
+        "link":"https://github.com/Veronica-B/wikipedia"
+    },
+    {
+        "name":"Animated Navigation",
+        "image":"https://i.pinimg.com/564x/a4/72/48/a4724885fe26920638a9479be03e3847.jpg",
+        "description":"My team and I recreated Wikipedia with our own vision. Made with React, Nodejs, and Mysql.",
+        "link":"https://github.com/Veronica-B/wikipedia"
     }
 ]
