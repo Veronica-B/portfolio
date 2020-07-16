@@ -48,7 +48,7 @@ font-size: 35px;
     }
 }
 
-@media screen and (min-width: $tablet){
+@media screen and (max-width: $tablet){
     .pic--resume{
         height: 250px;
         width: 250px;
@@ -69,9 +69,33 @@ font-size: 35px;
     }
 }
 
-@media screen and (min-width: $mobile){
+@media screen and (max-width: $mobile){
+
+
+.container--resume{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+}
     .pic--resume{
         height: 150px;
         width: 150px;
+        margin-bottom: 15px;
     }
+
+
+.ul--resume{
+
+    font-size: 30px;
+
+    li{
+        font-size: 20px;
+        line-height: 40px;
+    }
+}
+
+.p--resume{
+    margin-top: 15px;
+    font-size: 20px;
+}
 }

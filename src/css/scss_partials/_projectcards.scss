@@ -35,9 +35,27 @@
     color: $pnavy;
 }
 
-@media screen and (min-width: $tablet){
+@media screen and (max-width: $tablet){
     .container--project{
         grid-template-columns: repeat(2, 50%);
+    }
+
+
+.flexbox--project{
+    display: flex;
+    margin: 10px;
+}
+
+.img--project{
+    width:300px;
+}
+
+}
+
+
+@media screen and (max-width: $mobile){
+    .container--project{
+        grid-template-columns: repeat(1, 100%);
     }
 
 
