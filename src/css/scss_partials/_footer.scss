@@ -9,6 +9,10 @@
         display: flex;
         justify-content: space-around ;
 
+        a{
+            border: dashed 5px transparent;
+        }
+
         a:hover{
             border-bottom: 5px dashed $skyblue;
         }

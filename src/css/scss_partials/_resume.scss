@@ -40,13 +40,38 @@ font-size: 35px;
 
     a{
         text-decoration: none;
-        color: $skyblue;
-
-       
+        color: $skyblue; 
     }
 
     a:hover{
-       
             border-bottom:dashed 5px $skyblue;
+    }
+}
+
+@media screen and (min-width: $tablet){
+    .pic--resume{
+        height: 250px;
+        width: 250px;
+    }
+
+    .ul--resume{
+        font-size: 25px;
+    
+        li{
+            font-size: 20px;
+            line-height: 50px;
+        }
+    }
+
+    .p--resume{
+        margin-top: 25px;
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: $mobile){
+    .pic--resume{
+        height: 150px;
+        width: 150px;
     }
 }

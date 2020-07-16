@@ -65,3 +65,35 @@
     }
 
 }
+
+
+@media screen and (min-width: $tablet){
+.container--contact{
+    font-size: 25px;
+}
+.container--form{
+    input{
+        width: 200px;
+    }
+
+    textarea{
+        height:200px;
+        width: 300px;
+    }
+
+    button{
+        height:50px;
+    }
+}
+
+
+.contact-info{
+    li{
+        margin: 15px;
+    }
+
+    .bigger{
+        font-size: 35px;
+    }
+}
+}

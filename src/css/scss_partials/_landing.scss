@@ -61,3 +61,35 @@
     animation-duration: 2.5s;
     position: relative;
 }
+
+@media screen and (min-width: $tablet)  {
+  .background{
+    grid-template-rows: 20vw 30vw 15vw 30vw;
+
+    &__header{
+        font-size: 40px;
+        letter-spacing: 15px;
+    }
+  }
+
+  .profile-pic{
+    height:190px;
+    width: 190px;
+}
+
+.about-me{
+    font-size: 22px;
+}
+
+  }
+
+  @media screen and (min-width: $tablet) and (orientation: landscape) {
+    .background{
+        grid-template-rows: 15vw 25vw 10vw 25vw;
+    }
+
+
+.about-me{
+    font-size: 25px;
+}
+  }
