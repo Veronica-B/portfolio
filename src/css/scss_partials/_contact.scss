@@ -1,15 +1,18 @@
 .container--contact{
-    display: grid;
-    grid-template-columns: repeat(2, 50%);
     align-items: center;
     color: $pnavy;
     font-size: 35px;
+
+    p{
+        margin-bottom: 30px;
+    }
 }
 
 .container--form{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 30px;
     input{
         height: 30px;
         width: 300px;
@@ -25,11 +28,11 @@
 
     button{
         background-color: $pnavy;
-        color:$yellow;
-        height:70px;
+        color:$skyblue;
+        height:50px;
         border-radius:10px;
         width:150px;
-        font-size:35px;
+        font-size:25px;
         margin-top: 10px;
         margin-bottom:25px ;
         cursor: pointer;
@@ -41,12 +44,12 @@
     text-align: center;
 
     li{
-        margin: 25px;
+        margin: 25px 25px 0 25px;
         list-style: none;
     }
 
     a{
-        color: $skyblue;
+        color: $pnavy;
         text-decoration: none;
         padding-bottom: 4px;
     }
@@ -64,6 +67,11 @@
         margin-bottom: -7px;
     }
 
+}
+
+
+.padding{
+    padding-bottom: 30px;
 }
 
 
@@ -89,7 +97,7 @@
 
 .contact-info{
     li{
-        margin: 15px;
+        margin: 15px 15px 0px 15px;
     }
 
     .bigger{
@@ -97,6 +105,7 @@
     }
 }
 }
+
 
 
 @media screen and (max-width: $mobile){
@@ -126,7 +135,7 @@
     
     .contact-info{
         li{
-            margin: 10px;
+            margin: 10px 10px 0 10px;
         }
     
         .bigger{

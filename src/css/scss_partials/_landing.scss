@@ -11,7 +11,7 @@
     &__header{
         color: $pnavy;
         text-align: center;
-        font-size: 60px;
+        font-size: 50px;
         letter-spacing: 20px;
         grid-row: 3;
         grid-column:2/5 ;
@@ -83,7 +83,7 @@
 
   }
 
-  @media screen and (max-width: $tablet) and (orientation: landscape) {
+@media screen and (max-width: $tablet) and (orientation: landscape) {
     .background{
         grid-template-rows: 15vw 25vw 10vw 25vw;
     }

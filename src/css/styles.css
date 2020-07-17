@@ -32,7 +32,7 @@
 }
 
 .navbar__ul__items a {
-  color: #F9DB6D;
+  color: #56CBF9;
   text-decoration: none;
 }
 
@@ -42,7 +42,7 @@
 
 .footer {
   background-color: #464D77;
-  color: #F9DB6D;
+  color: #56CBF9;
   text-align: center;
 }
 
@@ -66,21 +66,21 @@
 
 .footer div img {
   height: 50px;
-  background-color: #F9DB6D;
+  background-color: white;
   padding: 7px;
   border-radius: 10px;
 }
 
 .container--contact {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (50%)[2];
-      grid-template-columns: repeat(2, 50%);
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   color: #464D77;
   font-size: 35px;
+}
+
+.container--contact p {
+  margin-bottom: 30px;
 }
 
 .container--form {
@@ -94,6 +94,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 30px;
 }
 
 .container--form input {
@@ -111,11 +112,11 @@
 
 .container--form button {
   background-color: #464D77;
-  color: #F9DB6D;
-  height: 70px;
+  color: #56CBF9;
+  height: 50px;
   border-radius: 10px;
   width: 150px;
-  font-size: 35px;
+  font-size: 25px;
   margin-top: 10px;
   margin-bottom: 25px;
   cursor: pointer;
@@ -127,12 +128,12 @@
 }
 
 .contact-info li {
-  margin: 25px;
+  margin: 25px 25px 0 25px;
   list-style: none;
 }
 
 .contact-info a {
-  color: #56CBF9;
+  color: #464D77;
   text-decoration: none;
   padding-bottom: 4px;
 }
@@ -151,7 +152,11 @@
   margin-bottom: -7px;
 }
 
-@media screen and (max-width: 768px) {
+.padding {
+  padding-bottom: 30px;
+}
+
+@media screen and (max-width: 1100px) {
   .container--contact {
     font-size: 25px;
   }
@@ -166,14 +171,14 @@
     height: 50px;
   }
   .contact-info li {
-    margin: 15px;
+    margin: 15px 15px 0px 15px;
   }
   .contact-info .bigger {
     font-size: 35px;
   }
 }
 
-@media screen and (max-width: 319px) {
+@media screen and (max-width: 400px) {
   .container--contact {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -198,7 +203,7 @@
     font-size: 25px;
   }
   .contact-info li {
-    margin: 10px;
+    margin: 10px 10px 0 10px;
   }
   .contact-info .bigger {
     font-size: 25px;
@@ -251,7 +256,7 @@
   color: #464D77;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1100px) {
   .container--project {
     -ms-grid-columns: (50%)[2];
         grid-template-columns: repeat(2, 50%);
@@ -267,7 +272,7 @@
   }
 }
 
-@media screen and (max-width: 319px) {
+@media screen and (max-width: 400px) {
   .container--project {
     -ms-grid-columns: (100%)[1];
         grid-template-columns: repeat(1, 100%);
@@ -298,7 +303,7 @@
 .background__header {
   color: #464D77;
   text-align: center;
-  font-size: 60px;
+  font-size: 50px;
   letter-spacing: 20px;
   -ms-grid-row: 3;
   grid-row: 3;
@@ -393,7 +398,7 @@
   position: relative;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1100px) {
   .background {
     -ms-grid-rows: 20vw 30vw 15vw 30vw;
         grid-template-rows: 20vw 30vw 15vw 30vw;
@@ -411,7 +416,7 @@
   }
 }
 
-@media screen and (max-width: 768px) and (orientation: landscape) {
+@media screen and (max-width: 1100px) and (orientation: landscape) {
   .background {
     -ms-grid-rows: 15vw 25vw 10vw 25vw;
         grid-template-rows: 15vw 25vw 10vw 25vw;
@@ -421,7 +426,7 @@
   }
 }
 
-@media screen and (max-width: 319px) {
+@media screen and (max-width: 400px) {
   .background {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -462,7 +467,7 @@
 .pic--resume {
   height: 300px;
   width: 350px;
-  border: 5px solid #464D77;
+  border: 5px dashed #464D77;
 }
 
 .a--resume {
@@ -497,14 +502,14 @@
 
 .p--resume a {
   text-decoration: none;
-  color: #56CBF9;
+  color: #464D77;
 }
 
 .p--resume a:hover {
   border-bottom: dashed 5px #56CBF9;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1100px) {
   .pic--resume {
     height: 250px;
     width: 250px;
@@ -522,7 +527,7 @@
   }
 }
 
-@media screen and (max-width: 319px) {
+@media screen and (max-width: 400px) {
   .container--resume {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -556,10 +561,6 @@
 * {
   padding: 0;
   margin: 0;
-}
-
-.background--pink {
-  background-color: #EAC5D8;
 }
 
 .background--lav {

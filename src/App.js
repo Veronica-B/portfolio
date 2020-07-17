@@ -23,7 +23,7 @@ function App() {
       </p>
       </div>
 
-      <section className="background--pink">
+      <section className="background--lav">
         <h2>Resume</h2>
         <div className="container--resume">
           <a className="a--resume" href="https://docs.google.com/document/d/1vZwJYfSS7kVToykG_XUi8ld_kagfFvN1T0HioIQB5qE/edit"><img className="pic--resume" src={Resume} alt="resume" /></a>
@@ -51,24 +51,13 @@ function App() {
         <ProjectCard />
       </section >
     
-      <section className="background--pink">
-        <h2 id="contact">Contact Me!</h2>
+      <section className="background--lav">
+        <h2 id="contact">Stay in Touch!</h2>
 
         <div className="container--contact">
           <ul className="contact-info">
-            <li className="bigger">Stay in Touch:</li>
             <li>Email: veronicabarcia4@gmail.com</li>
-            <li>Phone #: 803-431-0834</li>
-            <li className="bigger">You can also find me here!</li>
-            <li>
-              <a href="https://github.com/Veronica-B">
-                <img className="contact--icon" src={Github} alt="Github Icon" />
-        Github</a>
-            </li>
-            <li><a href="https://www.linkedin.com/in/veronica-barcia3/" >
-            <img className="contact--icon" src={Linked} alt="Linkedin Icon" />
-              LinkedIn</a></li>
-          </ul>
+
           <form method="POST" className="container--form">
             <label htmlFor="full_name">Full Name:</label>
             <input type="text" name="full_name"></input>
@@ -78,6 +67,17 @@ function App() {
             <textarea type="text" name="message" />
             <button>Submit</button>
           </form>
+
+          <ul className="bigger">You can also find me here!</ul>
+            <li>
+              <a href="https://github.com/Veronica-B">
+                <img className="contact--icon" src={Github} alt="Github Icon" />
+        Github</a>
+            </li>
+            <li className="padding"><a href="https://www.linkedin.com/in/veronica-barcia3/" >
+            <img className="contact--icon" src={Linked} alt="Linkedin Icon" />
+              LinkedIn</a></li>
+          </ul>
         </div>
       </section>
       <Footer />

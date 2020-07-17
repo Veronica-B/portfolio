@@ -8,7 +8,7 @@
 .pic--resume{
     height: 300px;
     width: 350px;
-    border: 5px solid $pnavy;
+    border: 5px dashed $pnavy;
 }
 
 .a--resume{
@@ -40,7 +40,7 @@ font-size: 35px;
 
     a{
         text-decoration: none;
-        color: $skyblue; 
+        color: $pnavy;
     }
 
     a:hover{
