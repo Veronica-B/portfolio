@@ -20,55 +20,55 @@
     {
         "name":"Tutor-Site",
         "image":"https://i.pinimg.com/564x/bd/56/f2/bd56f2292f40431e2e545fb7f4de11ab.jpg",
-        "description":"My team and I recreated Wikipedia with our own vision. Made with React, Nodejs, and Mysql.",
+        "description":"My team and I created an online tutoring site that teaches users with handpicked videos , using the Youtube API, for each course. Made with SASS, Nodejs, and Express.",
         "link":"https://tic-tac-toe-with-react.netlify.app/"
     },
     {
         "name":"Tic-Tac-Toe",
         "image":"https://i.pinimg.com/564x/31/02/22/3102225d436ba7a8d2944196244b4762.jpg",
-        "description":"My team and I recreated Wikipedia with our own vision. Made with React, Nodejs, and Mysql.",
+        "description":"The online version of the tic-tac-toe game! Made with React.",
         "link":"https://github.com/Veronica-B/wikipedia"
     },
     {
         "name":"To-do-list",
         "image":"https://i.pinimg.com/564x/2f/7d/9f/2f7d9f92fa18a3cc869aeff69b65aa9e.jpg",
-        "description":"My team and I recreated Wikipedia with our own vision. Made with React, Nodejs, and Mysql.",
+        "description":"An online to-do list! Made with React.",
         "link":"https://5f12020b7d45088613c683b0--todo-list-vb.netlify.app/"
     },
     {
         "name":"Github Cards",
         "image":"https://i.pinimg.com/564x/d2/0f/23/d20f2302f36864a55832263ebf91eec1.jpg",
-        "description":"My team and I recreated Wikipedia with our own vision. Made with React, Nodejs, and Mysql.",
+        "description":"This site shows Github user cards when their name is typed in. This was done with the Github API, and was made with React.",
         "link":"https://git-hub-cards.netlify.app/"
     },
     {
         "name":"Guessing Game",
         "image":"https://i.pinimg.com/564x/db/a5/3d/dba53d82f32fec1d4f349838af300820.jpg",
-        "description":"My team and I recreated Wikipedia with our own vision. Made with React, Nodejs, and Mysql.",
+        "description":"A game where the user must guess the a number from 1-100. Made with audio recognition.",
         "link":"https://guessing-game-vb.netlify.app/"
     },
     {
         "name":"Friendslist",
         "image":"https://i.pinimg.com/564x/96/ad/df/96addf193703e3ade8f0b14d9978149b.jpg",
-        "description":"My team and I recreated Wikipedia with our own vision. Made with React, Nodejs, and Mysql.",
+        "description":"A site where you can delete your friends. Made with React.",
         "link":"https://github.com/Veronica-B/my-friends-list/tree/master/Desktop/portfolio/friendslist"
     },
     {
         "name":"Hotel-App",
         "image":"https://i.pinimg.com/564x/6a/2a/c5/6a2ac59ebab9461079b4b0e6877f86fa.jpg",
-        "description":"My team and I recreated Wikipedia with our own vision. Made with React, Nodejs, and Mysql.",
+        "description":"A site for a fictional hotel. Made with HTML and CSS.",
         "link":"https://hotel-website-vb.netlify.app/about.html"
     },
     {
         "name":"Chatroom",
         "image":"https://i.pinimg.com/564x/e9/5d/d4/e95dd4ddfaecc3b2a310faae14fe4cc1.jpg",
-        "description":"My team and I recreated Wikipedia with our own vision. Made with React, Nodejs, and Mysql.",
+        "description":"A chatroom with a friendly helper bot.",
         "link":"https://github.com/Veronica-B/chat-room"
     },
     {
         "name":"Animated Navigation",
         "image":"https://i.pinimg.com/564x/e1/d6/f5/e1d6f54ccee0a2667add8637e9cbe7de.jpg",
-        "description":"My team and I recreated Wikipedia with our own vision. Made with React, Nodejs, and Mysql.",
+        "description":"A site with an animated navigation bar. Made with HTML and CSS",
         "link":"https://animated-navigation.netlify.app/"
     }
 ]
