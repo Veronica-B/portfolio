@@ -44,7 +44,7 @@
   display: none;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   .navbar__ul {
     display: none;
   }
@@ -286,7 +286,7 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .container--contact {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -380,7 +380,7 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .container--project {
     -ms-grid-columns: (100%)[1];
         grid-template-columns: repeat(1, 100%);
@@ -534,7 +534,7 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .background {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -635,7 +635,7 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .container--resume {
     display: -webkit-box;
     display: -ms-flexbox;
