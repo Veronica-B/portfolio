@@ -8,10 +8,11 @@ return(
 return(
     <div className="flexbox--project">
     <a className="border" href={item.link}><img className="img--project" alt="project images" src={item.image}/></a>
-
+    <div className="flexbox--project">
    <h3 className="headers--project"> {item.name}</h3>
 
     <p className="descrip--project">{item.description}</p>
+    </div>
 
     </div>
 )})}

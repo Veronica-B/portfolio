@@ -14,7 +14,7 @@
     {
         "name":"Wiki-Redesign",
         "image":"https://i.pinimg.com/564x/a4/72/48/a4724885fe26920638a9479be03e3847.jpg",
-        "description":"My team and I recreated Wikipedia with our own vision. Made with React, Nodejs, and Mysql.",
+        "description":"My team and I recreated Wikipedia. Made with React, Nodejs, and Mysql.",
         "link":"https://github.com/Veronica-B/wikipedia"
     },
     {
@@ -43,7 +43,7 @@
     {
         "name":"Guessing Game",
         "image":"https://i.pinimg.com/564x/db/a5/3d/dba53d82f32fec1d4f349838af300820.jpg",
-        "description":"A game where the user must guess a number from 1-100. Made with audio recognition.",
+        "description":"A game where the user must guess the right number. Made with audio recognition.",
         "link":"https://guessing-game-vb.netlify.app/"
     },
     {
@@ -55,7 +55,7 @@
     {
         "name":"Hotel-App",
         "image":"https://i.pinimg.com/564x/6a/2a/c5/6a2ac59ebab9461079b4b0e6877f86fa.jpg",
-        "description":"A site for a hotel. Made with HTML and CSS.",
+        "description":"A hotel site, made with HTML and CSS.",
         "link":"https://hotel-website-vb.netlify.app/about.html"
     },
     {
