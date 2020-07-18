@@ -12,7 +12,8 @@ return(
    <a href="https://www.instagram.com/vero__barcia/"><img src={Insta} alt="Instagram icon"/></a>
    </div>
    Site By Veronica Barcia
-   &copy; VB 2020
+   &copy; VB 2020----
+   Last Updated 7/17/20
 </footer>
 
 )
